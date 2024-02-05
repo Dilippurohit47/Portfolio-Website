@@ -1,15 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
-import Header from './components/header/header'
- import Home from "./components/home/home"
-import About from './components/About/About'
+import Header from './components/header/header.jsx'
+ import Home from "./components/home/home.jsx"
+import About from './components/About/About.jsx'
 import Skills from "./components/skills/Skills.jsx"
-import Services from './components/Services/Services'
-import Qualification from './components/Qualificaion/Qualification'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/footer'
-import Scroll from './components/scrollup/scroll'
+import Services from './components/Services/Services.jsx'
+import Qualification from './components/Qualificaion/Qualification.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
+import Scroll from './components/scrollup/scroll.jsx'
 
 
 
