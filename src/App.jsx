@@ -8,8 +8,9 @@ import Skills from "./components/skills/Skills.jsx"
 import Services from './components/Services/Services.jsx'
 import Qualification from './components/Qualificaion/Qualification.jsx'
 import Contact from './components/Contact/Contact.jsx'
-import Footer from './components/Footer/Footer.jsx'
+
 import Scroll from './components/scrollup/scroll.jsx'
+import Footer from "./components/Footer/Footer.jsx"
 
 
 
