@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 
+import { FaInstagram } from "react-icons/fa";
+
 const Contact = () => {
   const form = useRef();
 
@@ -32,33 +34,32 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">dilippurohit204@gmail.com</span>
               <a
-                href="mailto:exampleemail@gmail.com.com"
+                href="dilippurohit204@gmail.com"
                 className="contact__button"
               >
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                mail me on this Email
               </a>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">165418615</span>
+              <span className="contact__card-data">9328197347</span>
               <a
                 href="mailto:exampleemail@gmail.com.com"
                 className="contact__button"
               >
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
+                message me on this number
+                   </a>
             </div>
 
-            <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
-              <h3 className="contact__card-title">Messenger</h3>
+            {/* <div className="contact__card">
+              <i className=" contact__card-icon">{FaInstagram}</i>
+              <h3 className="contact__card-title"></h3>
               <span className="contact__card-data">user.fb123</span>
+
               <a
                 href="mailto:exampleemail@gmail.com.com"
                 className="contact__button"
@@ -66,7 +67,10 @@ const Contact = () => {
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
+
+
+
           </div>
         </div>
 

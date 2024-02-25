@@ -5,7 +5,6 @@ import Header from './components/header/header.jsx'
  import Home from "./components/home/home.jsx"
 import About from './components/About/About.jsx'
 import Skills from "./components/skills/Skills.jsx"
-import Services from './components/Services/Services.jsx'
 import Qualification from './components/Qualificaion/Qualification.jsx'
 import Contact from './components/Contact/Contact.jsx'
 
@@ -30,7 +29,7 @@ function App() {
 <Home/>
 <About/>
 <Skills/>
-<Services/>
+
 <Qualification/>
 <Contact/>
 

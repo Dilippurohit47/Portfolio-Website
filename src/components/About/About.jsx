@@ -1,6 +1,8 @@
 import React from 'react'
 import "./about.css"
 import Aboutimg from "../../assets/profile.jpg"
+// import Profile from "../../assets/attitude profile.jpg"
+import Profile from "../../assets/noLaptop.jpg"
 import CV from "../../assets/profile.jpg"
 import Info from './Info'
 
@@ -14,13 +16,13 @@ About Me
     <span className="section__subtitle">My introduction </span>
 
     <div className="about__container container grid ">
-<img src={Aboutimg} alt="" className="about__img" />
+<img src={Profile} alt="" className="about__img" />
 <div className="about__data">
 <Info/>
 <p className="about__description">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque necessitatibus cum corporis animi quo, voluptates consequuntur id a eum mollitia nam, in deleniti perferendis quia.
+I'm a third-year student at Parul University and a dedicated MERN stack developer. With a knack for creating impactful full-stack projects and eye-catching UI designs, I've found success as a video editor as well. A fast learner and workaholic, I thrive on challenges and bring strong communication skills to every project. My ability to easily connect with people has allowed me to build a network that fuels my passion for continuous learning and innovation.
 </p>
-<a download='' href={CV} className="button button--flex">Download CV 
+<a  href="" className="button button--flex">Download CV 
 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

@@ -58,7 +58,9 @@ const Data = () => {
         <h3 className="home__subtitle">
             Visual Designer
         </h3>
-        <p className='home__description'> im crative desginer based in india software developer and react develper</p>
+        <p className='home__description'>I am a skilled MERN stack developer based in India, with a strong focus on frontend technologies. Specializing in crafting user-friendly websites, I bring a creative design flair to every project. While my mastery lies in frontend development, I also possess a solid foundation in backend technologies, enabling me to create APIs and ensure seamless integration across the entire web development spectrum.</p>
+
+
 
         <a href="#contact" className="button button--flex">
             Say hello 
