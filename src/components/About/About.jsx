@@ -3,7 +3,7 @@ import "./about.css"
 import Aboutimg from "../../assets/profile.jpg"
 // import Profile from "../../assets/attitude profile.jpg"
 import Profile from "../../assets/noLaptop.jpg"
-import CV from "../../assets/profile.jpg"
+import CV from "../../../public/Dilip_Resume 3.pdf"
 import Info from './Info'
 
 const About = () => {
@@ -22,7 +22,7 @@ About Me
 <p className="about__description">
 I'm a third-year student at Parul University and a dedicated MERN stack developer. With a knack for creating impactful full-stack projects and eye-catching UI designs, I've found success as a video editor as well. A fast learner and workaholic, I thrive on challenges and bring strong communication skills to every project. My ability to easily connect with people has allowed me to build a network that fuels my passion for continuous learning and innovation.
 </p>
-<a  href="" className="button button--flex">Download CV 
+<a  href={CV} download className="button button--flex">Download CV 
 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
