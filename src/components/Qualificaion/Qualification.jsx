@@ -49,9 +49,13 @@ const Qualification = () => {
                     </div>
 
                     <div className="right-project1-div">
-                      <a href={item?.link} target="blank" className="visit">
+                      {
+                        item.link ?   <a href={item?.link} target="blank" className="visit">
                         visit
-                      </a>
+                      </a> :""
+
+                      }
+                    
                       <p className="view" onClick={(e) => setview(index)}>
                         View More
                       </p>
@@ -64,7 +68,7 @@ const Qualification = () => {
             <>
               <div className="ui">
                 {Ui?.map((item, index) => (
-                  <div className="ui-project">
+                  <div key={index} className="ui-project">
                     <div className="img">
                       <img src={item?.img} alt="" />
                     </div>
@@ -89,8 +93,8 @@ const Qualification = () => {
           )}
 
           {view !== -1
-            ? Project?.map((item) => (
-                <div className="info-div">
+            ? Project?.map((item,i) => (
+                <div  key={i} className="info-div">
              
                   <div className="cross" onClick={() => setview(-1)}>
                     <RxCross1 />
